@@ -24,9 +24,9 @@ Run with: `java -jar ./build/libs/sharepoint-datasource-regex-utility-1.0.jar {a
 
 The SharePoint optimized datasource configuration 'start links' only allow site collection urls to be specified.
 
-But often times you want to crawl just certain sites, document libraries, lists, list items, etc.
+But often times you want to crawl just certain sites, document libraries, lists, list items, etc. The deprecated sharepoint connector supported this. 
 
-So this utility provides you a way to get that level of granularity in the optimized connector.
+The optimized connector does this level of granularity using Regexes. So this utility provides you a way to get that level of granularity in the optimized connector.
 
 You specify each item you actually want to crawl. And this will update your SharePoint datsource with inclusive regexes that will do so.
 
