@@ -22,7 +22,13 @@ Run with: `java -jar ./build/libs/sharepoint-datasource-regex-utility-1.0.jar {a
  -proxyScheme VAL    : Proxy scheme - http or https.
 ```
 
-The SharePoint optimized datasource configuration 'start links' only allow site collection urls to be specified. But often times you want to crawl just certain sites, document libraries, lists, list items, etc. So this utility provides you a way to get that level of granularity in the new tool. You specify each item you actually want to crawl. And this will update your SharePoint datsource with inclusive regexes that will do so.
+The SharePoint optimized datasource configuration 'start links' only allow site collection urls to be specified.
+
+But often times you want to crawl just certain sites, document libraries, lists, list items, etc.
+
+So this utility provides you a way to get that level of granularity in the optimized connector.
+
+You specify each item you actually want to crawl. And this will update your SharePoint datsource with inclusive regexes that will do so.
 
 Example:
 
