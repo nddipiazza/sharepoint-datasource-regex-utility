@@ -33,3 +33,26 @@ You specify each item you actually want to crawl. And this will update your Shar
 Example:
 
 `java -jar ./build/libs/sharepoint-datasource-regex-utility-1.0.jar -link "https://some.sharepoint.host/Lists/noindexlist" -link "https://some.sharepoint.host/sites/mysitecol/site1/site2/site3/MyList here" -link "https://tenant.sharepoint.com/files_with_special_chars_in_filesnames/Shared%20Documents" -fusionUrl http://yourfusionhost:8764 -fusionUsername YOURUSERNAME -fusionPassword YOURPASSWORD -app YOURTEST -datasourceId YOURDSID`
+
+
+Results in:
+
+```
+https://some\.sharepoint\.host
+https://some\.sharepoint\.host/Lists
+https://some\.sharepoint\.host/Lists/noindexlist
+https://some\.sharepoint\.host/Lists/noindexlist/.*
+https://some\.sharepoint\.host/sites
+https://some\.sharepoint\.host/sites/mysitecol
+https://some\.sharepoint\.host/sites/mysitecol/site1
+https://some\.sharepoint\.host/sites/mysitecol/site1/site2
+https://some\.sharepoint\.host/sites/mysitecol/site1/site2/site3
+https://some\.sharepoint\.host/sites/mysitecol/site1/site2/site3/MyList here
+https://some\.sharepoint\.host/sites/mysitecol/site1/site2/site3/MyList here/.*
+https://tenant\.sharepoint\.com
+https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames
+https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared Documents
+https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared Documents/.*
+https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20Documents
+https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20Documents/.*
+```
