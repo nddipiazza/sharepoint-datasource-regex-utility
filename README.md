@@ -56,3 +56,7 @@ https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared Do
 https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20Documents
 https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20Documents/.*
 ```
+
+**Very important**: In order to crawl ACL permissions in incremental crawls, the parent of each item must be present in the index. So for example, you cannot crawl a list item but exclude the list it came from. This is because inherited permissions rely on the parent items to be present in the index when getting updates to a child item.
+
+So if you do not want to see the Parent item in search results, you must exclude these parent items using the query pipeline. Do not exclude it from the Index pipeline. 
