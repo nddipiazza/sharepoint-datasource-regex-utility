@@ -26,7 +26,7 @@ The SharePoint optimized datasource configuration 'start links' only allow site 
 
 But often times you want to crawl just certain sites, document libraries, lists, list items, etc. The deprecated sharepoint connector supported this. 
 
-The optimized connector does this level of granularity using Regexes. So this utility provides you a way to get that level of granularity in the optimized connector.
+The optimized connector does this level of granularity using Regexes. So this utility provides you a way to feed it a list of URLs you want to index, and it will spit out the `includeRegexes` list that will get your datasource to crawl that way. 
 
 You specify each item you actually want to crawl. And this will update your SharePoint datsource with inclusive regexes that will do so.
 
