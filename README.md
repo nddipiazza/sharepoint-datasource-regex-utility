@@ -59,7 +59,7 @@ https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20
 
 And after this runs, you will notice the inclusive regexes are added to your datasource config.
 
-!(image)[https://imgur.com/46bVAUN]
+![image](https://imgur.com/46bVAUN)
 
 **Very important**: In order to crawl ACL permissions in incremental crawls, the parent of each item must be present in the index. So for example, you cannot crawl a list item but exclude the list it came from. This is because inherited permissions rely on the parent items to be present in the index when getting updates to a child item.
 
