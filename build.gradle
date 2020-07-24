@@ -22,3 +22,15 @@ dependencies {
 
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
+
+
+jar {
+    manifest {
+        attributes(
+            'Main-Class': 'sharepoint-datasource-regex-utility'
+        )
+    }
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
