@@ -27,7 +27,7 @@ dependencies {
 jar {
     manifest {
         attributes(
-            'Main-Class': 'sharepoint-datasource-regex-utility'
+            'Main-Class': 'DatasourceConfigGenerator'
         )
     }
     from {
