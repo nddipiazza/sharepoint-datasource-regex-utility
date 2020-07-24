@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Fusion" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../Fusion1/fusion-connectors/connector-plugins/sharepoint" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../OReilly_4.1.2_Fusion/Fusion/external-fusion-connectors/components/ldap-component/exporter" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../connectors-sdk-resources/java-sdk/connectors" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../connectors-sdk-resources/java-sdk/connectors/random-connector" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../expiermental-openldap-components/connector-components" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../exxon_4.1.0_fusion/Fusion" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../exxon_4.1.0_fusion/Fusion/external-fusion-connectors/connector-plugins/sharepoint" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../exxon_4.1.0_fusion/connector-components" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fusion-connectors/components" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fusion-connectors/connector-plugins/one-drive" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fusion-connectors/connector-plugins/sharepoint" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../fusion-connectors/connector-plugins/sitecore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../iqvia_4.2.2_fusion/fusion-connectors/connector-plugins/sitecore" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../iqvia_4.2.2_fusion/fusion-connectors/libraries/sdk" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../load-test-helper-git/load-test-helper" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../onenote-parser-java" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../professional-services/sdk-connectors/collibra" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../x12-parser" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="14" />
+    <option name="width" value="1368" />
+    <option name="height" value="378" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
