@@ -59,7 +59,7 @@ https://tenant\.sharepoint\.com/files_with_special_chars_in_filesnames/Shared%20
 
 And after this runs, you will notice the inclusive regexes are added to your datasource config on Fusion.
 
-https://imgur.com/46bVAUN
+![Image showing config after save](https://imgur.com/46bVAUN)
 
 If you prefer, you can not specify the Fusion url and it will just print the regexes for you to copy in manually. So you could run it just like `java -jar ./build/libs/sharepoint-datasource-regex-utility-1.0.jar -link "https://some.sharepoint.host/Lists/noindexlist"` and it just print the regexes and not update Fusion.
 
