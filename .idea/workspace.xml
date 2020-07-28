@@ -216,6 +216,11 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Gradle.sharepoint-datasource-regex-utility [build]" />
+      <item itemvalue="Gradle.sharepoint-datasource-regex-utility [clean]" />
+      <item itemvalue="Gradle.sharepoint-datasource-regex-utility [jar]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.sharepoint-datasource-regex-utility [build]" />

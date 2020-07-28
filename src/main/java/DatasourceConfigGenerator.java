@@ -101,6 +101,10 @@ public class DatasourceConfigGenerator {
 
         regexes.forEach(System.out::println);
 
+        if (StringUtils.isBlank(fusionUrl)) {
+            return;
+        }
+
         ObjectMapper objectMapper = new ObjectMapper();
         HttpClientBuilder builder = HttpClientBuilder.create();
         if (StringUtils.isNotBlank(proxyHost)) {
